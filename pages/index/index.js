@@ -1,6 +1,5 @@
 // pages/font_page/font_page.js
 Page({
-
   /**
    * 页面的初始数据
    */

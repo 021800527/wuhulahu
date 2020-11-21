@@ -19,6 +19,38 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
+    wx.getUserInfo({
+      success:function(res){
+        console.log(res)
+      }
+    })
+    wx.getSetting({
+      withSubscriptions: true,
+      success:function(res){
+        console.log(res)
+        if (res.authSetting['scope.userInfo'] === false) {
+          wx.login({
+            success:res=>{
+              console.log(res.code)
+              wx.request({
+               // 自行补上自己的 APPID 和 SECRET
+               method:'POST',
+               url: 'https://api.weixin.qq.com/sns/jscode2session?appid=wx7baf43318101b003&secret=b9858b4fc34320141767e0f4a1d7d0b7&js_code=' + res.code + '&grant_type=authorization_code',
+                success: res => {
+                // 获取到用户的 openid
+                console.log(res);
+                }
+                })
+                }
+              })
+        }
+      }
+    })
+    // setTimeout(function(){
+    //   wx.navigateTo({
+    //     url: '../index/index',
+    //   })
+    // },3000)
     jinrishici.load(result => {
       // 下面是处理逻辑示例
       this.setData({"jinrishici": result.data.content})

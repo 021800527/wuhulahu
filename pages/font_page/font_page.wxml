@@ -1,10 +1,13 @@
 <view class = "font_page">
   <view class="font_page_image">
-  <view class="title">
-    <image src="../../img/title.png"></image>
-  </view>
-  <view class="poem">
+    <view class="title">
+      <image src="../../img/title.png"></image>
+    </view>
+  <view class="poem" bindtap="next">
   {{jinrishici}}
+  </view>
+  <view id="login">
+    <button id="login_button" open-type="getUserInfo">请求登录</button>
   </view>
   <image src="../../img/front_page.jpg"></image>
   </view>
