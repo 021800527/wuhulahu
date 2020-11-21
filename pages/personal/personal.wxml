@@ -1,0 +1,27 @@
+<view id="background">
+  <image id = "background_img" src="../../img/background.jpg"></image>
+  <view id="information">
+    <view id="avatar">
+      <image id="avatar_img" src="https://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83er1Pp1nUqF37Fmbibv1iaoOrict6nz1EiavFURU0WOQ8FDn9nszuRqiaMaaIPNjVpWkg9vEmTicdY2UNJDw/132"></image>
+    </view>
+    <view id="name">
+      <view id="name_details">🌟</view>
+      <view id="invitation">邀请码:132456</view>
+    </view>
+  </view>
+  <view class="function">
+    <view class="function_button"></view>
+  </view>
+  <view class="function">
+    <view class="function_button"></view>
+  </view>
+  <view class="function">
+    <view class="function_button"></view>
+  </view>
+  <view class="function">
+    <view class="function_button"></view>
+  </view>
+  <view class="function">
+    <view class="function_button"></view>
+  </view>
+</view>

@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/font_page/font_page"
+    "pages/font_page/font_page",
+    "pages/personal/personal"
   ],
   "window":{
     "backgroundTextStyle":"light",
