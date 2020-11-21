@@ -7,7 +7,7 @@
   {{jinrishici}}
   </view>
   <view id="login">
-    <button id="login_button" open-type="getUserInfo">请求登录</button>
+    <button id="login_button" open-type="getUserInfo" wx:if="{{flag}}" bindgetuserinfo="test">请求登录</button>
   </view>
   <image src="../../img/front_page.jpg"></image>
   </view>
