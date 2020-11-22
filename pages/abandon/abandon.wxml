@@ -4,4 +4,9 @@
     <view id="dangrous_title">啊界面危险</view>
     <button>开溜</button>
   </view>
+  <view id="bye">
+    <view id="bye_datails_left">星星最终还是要归还宇宙的啊</view>
+    <view id="bye_datails_right">对不起，我想把借的未来还给你</view>
+    <button id="bye_button">解除关系</button>
+  </view>
 </view>

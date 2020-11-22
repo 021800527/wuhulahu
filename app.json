@@ -6,7 +6,8 @@
     "pages/receive/receive",
     "pages/reference/reference",
     "pages/abandon/abandon",
-    "pages/her/her"
+    "pages/her/her",
+    "pages/sent/sent"
   ],
   "window":{
     "backgroundTextStyle":"light",

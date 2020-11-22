@@ -13,7 +13,7 @@
     <view class="function_button" bindtap = "to_receive">收到的券</view>
   </view>
   <view class="function">
-    <view class="function_button">送出的券</view>
+    <view class="function_button" bindtap="to_sent">送出的券</view>
   </view>
   <view class="function">
     <view class="function_button" bindtap="to_her">关于它</view>

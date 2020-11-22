@@ -94,6 +94,12 @@
           "pathName": "pages/abandon/abandon",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "receive",
+          "pathName": "pages/receive/receive",
+          "query": "",
+          "scene": null
         }
       ]
     }
