@@ -1,4 +1,4 @@
-// pages/personal/personal.js
+// pages/receive/receive.js
 Page({
 
   /**
@@ -7,11 +7,7 @@ Page({
   data: {
 
   },
-  to_receive:function(){
-    wx.navigateTo({
-      url: '../receive/receive',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -30,7 +26,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    wx.hideHomeButton();
+
   },
 
   /**
