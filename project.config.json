@@ -74,6 +74,25 @@
         {
           "name": "pages/personal/personal",
           "pathName": "pages/personal/personal",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "reference",
+          "pathName": "pages/reference/reference",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/her/her",
+          "pathName": "pages/her/her",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/abandon/abandon",
+          "pathName": "pages/abandon/abandon",
+          "query": "",
           "scene": null
         }
       ]

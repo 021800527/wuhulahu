@@ -1,4 +1,4 @@
-// pages/personal/personal.js
+// pages/abandon/abandon.js
 Page({
 
   /**
@@ -7,26 +7,7 @@ Page({
   data: {
 
   },
-  to_receive:function(){
-    wx.navigateTo({
-      url: '../receive/receive',
-    })
-  },
-  to_reference:function(){
-    wx.navigateTo({
-      url: '../reference/reference',
-    })
-  },
-  to_her:function(){
-    wx.navigateTo({
-      url: '../her/her',
-    })
-  },
-  to_abandon:function(){
-    wx.navigateTo({
-      url: '../abandon/abandon',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -45,7 +26,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    wx.hideHomeButton();
+
   },
 
   /**

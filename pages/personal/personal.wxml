@@ -16,13 +16,13 @@
     <view class="function_button">送出的券</view>
   </view>
   <view class="function">
-    <view class="function_button">关于它</view>
+    <view class="function_button" bindtap="to_her">关于它</view>
   </view>
   <view class="function">
-    <view class="function_button">系统设置</view>
+    <view class="function_button" bindtap="to_abandon">系统设置</view>
   </view>
   <view class="function">
-    <view class="function_button">关系绑定</view>
+    <view class="function_button " bindtap="to_reference">关系绑定</view>
   </view>
   <view id="button_img">
     <button id="exit_button">安全退出</button>

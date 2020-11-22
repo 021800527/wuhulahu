@@ -1,0 +1,7 @@
+<view id="background_img">
+  <image id="background_img" src="../../img/abandon.jpg"></image>
+  <view id="dangrous">
+    <view id="dangrous_title">啊界面危险</view>
+    <button>开溜</button>
+  </view>
+</view>

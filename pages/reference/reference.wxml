@@ -1,0 +1,5 @@
+<view id="background">
+  <image id= "background_img" src="../../img/reference_background.jpg"></image>
+  <input id="invitation_button" type="text" value="请输入邀请码："/>
+  <button id="button">确定</button>
+</view>

@@ -3,7 +3,10 @@
     "pages/index/index",
     "pages/font_page/font_page",
     "pages/personal/personal",
-    "pages/receive/receive"
+    "pages/receive/receive",
+    "pages/reference/reference",
+    "pages/abandon/abandon",
+    "pages/her/her"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -14,12 +17,12 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/personal/personal",
-        "text":"个人中心"
-      },
-      {
         "pagePath": "pages/index/index",
         "text": "首页"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text":"个人中心"
       }
     ]
   },

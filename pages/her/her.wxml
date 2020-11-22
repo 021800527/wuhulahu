@@ -1,0 +1,15 @@
+<view id="background">
+  <image id="background_img" src="../../img/reference_background.jpg"></image>
+  <view id="infomation_details">
+    <view id="birthday">Ta的生日：</view>
+    <view class="details"></view>
+    <view id="favorite_color">Ta喜欢的颜色：</view>
+    <view class="details"></view>
+    <view id="favorite_idol">Ta喜欢的明星：</view>
+    <view class="details"></view>
+    <view id="favorite_food">
+      <view id="title">Ta喜欢的食物：</view>
+      <view id="details"></view>
+    </view>
+  </view>
+</view>
