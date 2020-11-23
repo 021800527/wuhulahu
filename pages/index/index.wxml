@@ -1,0 +1,44 @@
+<view id="background" >
+  <view class="commpoent">
+    <image id="commopent_img" src="../../img/copy.png"></image>
+    <view id="main">
+      <view id="fuck">
+      </view>
+      <view id="fake">
+        <view id="logo">
+          <image id="logo_img" src="../../img/love.png"></image>
+          <image id="fake_img" src="../../img/juan.png"></image>
+        </view>
+        <view id="details"> 
+          <view id="details_sentences"></view>
+          <view id="use_button">赠送</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="commpoent" >
+    <image id="commopent_img" src="../../img/copy.png"></image>
+    <view id="main">
+      <view id="title">我是你爹</view>
+      <view id="fuck">
+      <image id="main_img" src="../../img/img.png"></image>
+      <view id="date" >
+        <view id="date_title">有效期:</view>
+        <view id="date_left_view" >
+          <input bindtap="focus1" type="text" name="" focus="{{focus}}" id="date_left" placeholder="如2020.11"/>
+        </view>
+      </view>
+      </view>
+      <view id="fake">
+        <view id="logo">
+          <image id="logo_img" src="../../img/love.png"></image>
+          <image id="fake_img" src="../../img/juan.png"></image>
+        </view>
+        <view id="details"> 
+          <view id="details_sentences">说得都对一次</view>
+          <view id="use_button">赠送</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

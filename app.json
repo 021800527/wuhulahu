@@ -7,7 +7,9 @@
     "pages/reference/reference",
     "pages/abandon/abandon",
     "pages/her/her",
-    "pages/sent/sent"
+    "pages/sent/sent",
+    "pages/diy/diy",
+    "pages/index_back/index_back"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -19,7 +21,11 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "恋爱小报"
+      },
+      {
+        "pagePath": "pages/diy/diy",
+        "text":"DIY券"
       },
       {
         "pagePath": "pages/personal/personal",

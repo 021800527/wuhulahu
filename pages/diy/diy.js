@@ -1,21 +1,18 @@
-// pages/font_page/font_page.js
+// pages/diy/div.js
 Page({
+
   /**
    * 页面的初始数据
    */
   data: {
-    focus:false
+
   },
-  focus1:function(){
-    console.log(this.data.focus)
-    this.setData({
-      focus:true
-  })
-},
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+
   },
 
   /**

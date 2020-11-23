@@ -96,7 +96,7 @@ page{
   text-align: center;
   height: 20%;
   width: 40%;
-  font-size: 60%;
+  font-size: 100%;
   position: relative;
   left: 35%;
   color: snow;
